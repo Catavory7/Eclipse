@@ -33,12 +33,24 @@ h1, h2 {
     text-decoration: none;
 }
 
+/* GitHub button styles */
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0366d6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: transform 0.3s ease; /* Add transition for transform property */
+}
+
+.github-button:hover {
+    background-color: #0645ad;
+    transform: scale(1.1); /* Grow the button by 10% on hover */
+}
+
 .github-button img {
     width: 20px;
     vertical-align: middle;
     margin-right: 5px;
-}
-
-.github-button:hover {
-    background-color: #0366d6; /* Button color on hover */
 }
