@@ -33,7 +33,6 @@ h1, h2 {
     text-decoration: none;
 }
 
-/* GitHub button styles */
 .github-button {
     display: inline-block;
     padding: 10px 20px;
@@ -41,12 +40,12 @@ h1, h2 {
     color: #fff;
     text-decoration: none;
     border-radius: 20px;
-    transition: transform 0.3s ease; /* Add transition for transform property */
+    transition: transform 0.3s ease;
 }
 
 .github-button:hover {
     background-color: #0645ad;
-    transform: scale(1.1); /* Grow the button by 10% on hover */
+    transform: scale(1.1);
 }
 
 .github-button img {
@@ -54,3 +53,4 @@ h1, h2 {
     vertical-align: middle;
     margin-right: 5px;
 }
+
