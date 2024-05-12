@@ -1,15 +1,14 @@
-body {
+/* Define the font face */
 @font-face {
-    font-family: 'Daydream.ttf';
+    font-family: 'Daydream'; /* Use a name for the font family, not the filename */
     src: url('Daydream.ttf') format('truetype');
 }
 
+/* Apply the font to the body */
 body {
-    font-family: 'Daydream.ttf', sans-serif;
-}
-
-    background-color: #1a1a1a; /* Dark background color */
-    color: #fff; /* White text color */
+    font-family: 'Daydream', sans-serif; /* Use the name of the font family defined in @font-face */
+    background-color: #1a1a1a;
+    color: #fff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,6 +17,7 @@ body {
     height: 100vh;
 }
 
+/* Other styles */
 .container {
     text-align: center;
 }
@@ -34,10 +34,10 @@ h1, h2 {
 .github-button {
     display: inline-block;
     margin-top: 20px;
-    background-color: #24292e; /* GitHub button color */
-    color: #fff; /* Button text color */
+    background-color: #24292e;
+    color: #fff;
     padding: 10px 20px;
-    border-radius: 20px; /* Rounded button */
+    border-radius: 20px;
     text-decoration: none;
 }
 
@@ -61,4 +61,3 @@ h1, h2 {
     vertical-align: middle;
     margin-right: 5px;
 }
-
