@@ -1,5 +1,13 @@
 body {
-    font-family: 'Daydream', cursive;
+@font-face {
+    font-family: 'CustomFont';
+    src: url('Daydream.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+}
+
     background-color: #1a1a1a; /* Dark background color */
     color: #fff; /* White text color */
     margin: 0;
