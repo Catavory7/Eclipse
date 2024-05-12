@@ -1,11 +1,11 @@
 body {
 @font-face {
-    font-family: 'CustomFont';
+    font-family: 'Daydream.ttf';
     src: url('Daydream.ttf') format('truetype');
 }
 
 body {
-    font-family: 'CustomFont', sans-serif;
+    font-family: 'Daydream.ttf', sans-serif;
 }
 
     background-color: #1a1a1a; /* Dark background color */
