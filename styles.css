@@ -1,7 +1,9 @@
 /* Define the font face */
 @font-face {
-    font-family: 'Daydream'; /* Use a name for the font family, not the filename */
-    src: url('Daydream.ttf') format('truetype');
+    font-family: 'Daydream';
+    src: local('Daydream'), /* Try to use the font installed on the user's system first */
+         url('Daydream.ttf') format('truetype'), /* TrueType font format */
+         url('Daydream.otf') format('opentype'); /* OpenType font format */
 }
 
 /* Apply the font to the body */
